@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Contatos.module.css'
 import { GoMail } from "react-icons/go";
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs'
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 function Contatos(){
     return(
