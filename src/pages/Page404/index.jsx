@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './Page404.Module.css'
+import styles from './Page404.module.css'
 export default function Page404() {
   return (
     <>
