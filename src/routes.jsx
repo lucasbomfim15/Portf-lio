@@ -6,6 +6,7 @@ import Projetos from "./pages/Projetos";
 import Contatos from "./pages/Contatos";
 import Page404 from "./pages/Page404";
 import PageBase from "./pages/PaginaBase";
+import SenhaGame from "./components/SenhaGame/SenhaGame";
 
 
 function AppRoutes(){
@@ -17,6 +18,7 @@ function AppRoutes(){
                         <Route path="/sobre" element={ <Sobre /> }></Route>
                         <Route path="/projetos" element={ <Projetos /> }></Route>
                         <Route path="/contatos" element={ <Contatos /> }></Route>
+                        <Route path="/senha-game" element={<SenhaGame />} />
                         <Route path="*" element={ <Page404 /> }></Route>
                     </Route>
                 </Routes>

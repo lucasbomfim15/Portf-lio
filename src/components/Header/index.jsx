@@ -15,6 +15,7 @@ function Header(){
                 <Link to="/sobre">Sobre</Link>
                 <Link to="/projetos">Projetos</Link>
                 <Link to="/contatos">Contatos</Link>
+                <Link to="/senha-game">Jogo Senha</Link>
             </nav>
         </header>
      )
