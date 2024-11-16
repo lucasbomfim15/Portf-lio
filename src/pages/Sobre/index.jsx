@@ -1,13 +1,12 @@
 import React from 'react'
 import styles from './Sobre.module.css'
 import avatar from './images/meu avatar.png'
-import html from './images/icon-html.svg'
 import js from './images/icon-js.svg'
-import node from './images/icon-node.svg'
-import css from './images/icon-css.svg'
-import react from './images/icon-react.svg'
-import sql from './images/icon-sql.svg'
-
+import nest from './images/Nest.js.svg'
+import java from './images/java_original_logo_icon_146458.svg'
+import ts from './images/typescript_original_logo_icon_146317.svg'
+import mongo from './images/mongodb_plain_wordmark_logo_icon_146423.svg'
+import pg from './images/postgresql_original_wordmark_logo_icon_146392.svg'
 function Sobre(){
     return(
             <section className={styles.sobre}>
@@ -33,12 +32,12 @@ function Sobre(){
                 <div className={styles.techs}>
                     <h3>Techs</h3>
                    <div className={styles.icones}>
-                   <img src={html} alt="icone" /> 
-                        <img src={css} alt="icone" /> 
                         <img src={js} alt="icone" /> 
-                        <img src={react} alt="icone" /> 
-                        <img src={node} alt="icone" /> 
-                        <img src={sql} alt="icone" /> 
+                        <img src={ts} alt="icone" /> 
+                        <img src={nest} alt="icone" /> 
+                        <img src={java} alt="icone" /> 
+                        <img src={mongo} alt="icone" /> 
+                        <img src={pg} alt="icone" /> 
                    </div>
                 </div>
 
